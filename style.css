@@ -91,3 +91,8 @@ h2{
     box-shadow: var(--box-shadow);
     color: white;
   }
+
+  .homepage{
+    background-color: white;
+    border: 15px;
+  }
