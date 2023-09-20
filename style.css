@@ -1,0 +1,93 @@
+:root{
+    --bg-color: #F9F7FE;
+    --title-font: 'Playfair Display', serif;
+    --main-font: 'Poppins', sans-serif;
+    --button-color: #6C63FF;
+}
+
+.intro {
+    background-color: var(--bg-color);
+}
+
+h1{
+    font-family: var(--title-font);
+    font-size: 76px;
+}
+
+h4{
+    font-family: var(--main-font);
+    font-weight: bold;
+
+}
+p {
+    font-family: var(--main-font);
+}
+.buttons a{
+    padding: 24px 16px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: var(--button-color);
+    color: white;
+    text-decoration: none;
+    width: 20% !important;
+    text-align: center;
+}
+
+.buttons a:hover{
+    background-color: white;
+    color: var(--button-color);
+}
+
+h3 {
+    font-size: 44px;
+    font-weight: bold;
+    font-family: var(--main-font);
+}
+
+img{
+    border-radius: 10px;
+    
+}
+
+h2{
+    font-family: var(--title-font);
+    font-weight: bold;
+    text-align: center;
+}
+
+.contacts a {
+    padding: 24px 16px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: var(--button-color);
+    color: white;
+    text-decoration: none;
+    
+    text-align: center;
+    display: block;
+    text-align: center;
+
+}
+#contacts a{
+    
+    font-family: var(--main-font);
+    color: black;
+    text-decoration: none;
+}
+    
+.index-cards {
+    background: white;
+    text-align: left;
+    padding: 0;
+    
+  }
+
+  .primary-link {
+    border-radius: 4px;
+    padding: 16px 8px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: var(--button-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+  }
