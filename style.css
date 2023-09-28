@@ -109,3 +109,30 @@ h2{
   .contact-page a{
     font-family: var(--main-font);
   }
+
+.footer a{
+    color: black !important;
+    font-family: var(--main-font);
+    text-decoration: none !important;
+    font-size: 24px;
+}
+
+.icons a{
+    color: var(--button-color) !important;
+    margin: 0 24px;
+
+    background-color: white;
+
+    padding: 10px 16px;
+
+    font-size: 24px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+  
+
+}
+
+.icons a:hover{
+    color: white !important;
+    background-color: var(--button-color);
+}
