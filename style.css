@@ -116,7 +116,14 @@ h2{
     text-decoration: none !important;
     font-size: 24px;
 }
-
+.footer p{
+    font-size: 18px;
+}
+.footer p a{
+    font-size: 18px;
+    text-decoration: underline !important;
+    color: var(--button-color) !important;
+}
 .icons a{
     color: var(--button-color) !important;
     margin: 0 24px;
