@@ -96,3 +96,16 @@ h2{
     background-color: white;
     border: 15px;
   }
+
+  .contact-page h1{
+    font-size: 56px;
+  }
+
+  .contact-page h3{
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .contact-page a{
+    font-family: var(--main-font);
+  }
